@@ -1,0 +1,4 @@
+Trying my hands on python programing
+
+Here are some lines in the text file.
+I use this text file to make some random rote.

@@ -1,0 +1,91 @@
+# Project Requirements Document
+
+## Functional Requirements : This describes what the system must do.
+
+1. Add Expenses
+    - User can add an expense with:
+        Title (String)
+        Amount (positive number)
+        Category (String) 
+    - System must validate input before saving.
+    - Expenses must be saved persistenetly.
+2. View All Expenses
+    - User can view all stored expenses.
+    - Expenses must be:
+        Sorted by amount (decending).
+        Displayed with index number.
+3. Filter Expenses by Category
+    - User can enter a Category.
+    - System must display only matching expenses.
+    - Category match must be case-insensitive.
+4. Delete Expenses
+    - User can delete an expense using it index.
+    - System must:
+        Validate index range.
+        Return error if invalid.
+5. Show Total Spending
+    - System must calculate:
+        Total sum of all expenses.
+    - Must return numeric result.
+6. Data Persistance
+    - All expenses must be stored in:
+        data/expense.json
+    - Data must persist between application runs
+7. Logging
+    - Application must log:
+        Add operation (INFO)
+        Delete operation (INFO)
+        Invalid delete attempts (WARNINGS)
+    - Log must be writen to: 
+        logs/app.log
+8. Input Validation
+    - System must validate:
+        Title cannot be empty
+        Amount must:
+            Be numeric.
+            Be greater than zero.
+        Category cannot be empty.
+    - Invalid input must raise exceptions and not crash the application.
+
+
+## Non-Functional Requirements : These describes how the system should behave.
+
+1. Maintainability
+    - Code must be modular.
+    - Business logic must be separated from CLI logic.
+    - Validation must be reusable.
+2. Testability
+    - Core logic must be testable independently.
+    - Unit tests must cover:
+        Add expense
+        Delete expense
+        Total calculation
+3 Relaibility
+    - Application must handle:
+        Corrupted JSON file
+        Invalid numeric input
+        Invaid delete index
+    - Application must not crash on user error.
+4. Performance
+    - Application should handle atleast 1000 expenses without noticeable delay.
+5. Usability
+    - CLI menu must be:
+        Clearly display options.
+        Handle invalid menu input gracefully.
+
+## System Requirements
+    - Python3.9+
+    - No external libraries required
+    - Workson macOS / Windows / Linux
+
+## QA Acceptance Criteria
+    Application is considered complete when:
+        Adding valid expenses Works
+        Adding invalid expenses shows error
+        Deleting valid index Works
+        Deleting invalid index shows WARNINGS
+        Total calculation is correct
+        Data persists after restart
+        Log file is generated
+        Unit test pass
+

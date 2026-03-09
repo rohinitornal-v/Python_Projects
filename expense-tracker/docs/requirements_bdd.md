@@ -24,7 +24,13 @@ And the expense should not be saved
 
 ## Scenario: Add expense with invalid amount
 Given the application is running
-When the user enters a non-numeric or negative amount
+When the user enters a non-numeric or negative amount or 0 amount
+Then the system should display an error
+And the expense should not be saved
+
+## Scenario: Add expense with empty category
+Given the application is running
+When the user enters an empty category
 Then the system should display an error
 And the expense should not be saved
 

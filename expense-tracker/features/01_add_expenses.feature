@@ -60,7 +60,7 @@ Feature: Add Expense
   #Invalid validation - Category
 
   Scenario: Reject expense with empty Category
-    When I try to add an expense with title "Cofee", amount 3.50, and category ""
+    When I try to add an expense with title "Coffee", amount 3.50, and category ""
     Then the application should raise an error "Category cannot be empty"
     And no expense should be saved to "data/expenses.json"
     And the application should not crash

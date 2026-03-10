@@ -12,7 +12,7 @@ Feature: Add Expense
   # Happy Path
 
   Scenario: Successfully add a valid expense
-    When I add an expense with title "Lunch", amount 12.50, and category "Food"
+    When I add an expense with valid title "Lunch", amount 12.50, and category "Food"
     Then the expense should be saved to "data/expenses.json"
     And the expense list should contain an entry with title "Lunch", amount 12.50, category "Food"
     And an INFO log entry "Added Expenses: Lunch" should be written to "logs/app.log"
@@ -28,6 +28,7 @@ Feature: Add Expense
       | Gym Membership | 49.99   | Fitness   |
       | Bus Ticket     | 1.25    | Transport |
       | Rent           | 1500.00 | Housing   |
+      | Lunch          | 30.00   | FOod      |
 
   # Invalid Validation - Title
 
@@ -47,7 +48,7 @@ Feature: Add Expense
 
   Scenario: Reject expense with negative amount
     When I try to add an expense with title "Coffee" , amount -3.00, and category "Bevarages"
-    Then the application should raise an error "Amount cannot be in negative or greater than 0"
+    Then the application should raise an error "Amount cannot be in negative and greater than 0"
     And no expense should be saved to "data/expenses.json"
     And the application should not crash
 

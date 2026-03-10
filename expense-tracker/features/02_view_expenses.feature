@@ -8,18 +8,21 @@ Feature: View all Expenses
   Background:
     Given the expense tracker application is running
     And the following expenses exist:
-      | title     | amount | category  |
-      | Groceries | 50.00  | Food      |
-      | Bus Pass  | 30.00  | Transport |
-      | Netflix   | 15.00  | Subsidary |
+
+      | title          | amount  | category  |
+      | Coffee         | 3.50    | Beverages |
+      | Gym Membership | 49.99   | Fitness   |
+      | Bus Ticket     | 1.25    | Transport |
+      | Rent           | 1500.00 | Housing   |
+      | Lunch          | 30.00   | FOod      |
 
   # Happy path
 
   Scenario: View all expenses sorted by amount descending
     When I request to view all the expenses
     Then each expense should be displayed in descending order of amount
-    And the first exepnse should be "Groceries" with amount 50.00
-    And the last expense should be "Netflix" with amount 15.00
+    And the first exepnse should be "Rent" with amount 1500.00
+    And the last expense should be "Bus Ticket" with amount 1.25
 
   Scenario: View expenses displays index number
     When I request to view all Expenses

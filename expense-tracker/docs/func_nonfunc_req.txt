@@ -8,7 +8,7 @@
         Amount (positive number)
         Category (String) 
     - System must validate input before saving.
-    - Expenses must be saved persistenetly.
+    - Expenses must be saved persistenetly to a file.
 2. View All Expenses
     - User can view all stored expenses.
     - Expenses must be:
@@ -18,19 +18,25 @@
     - User can enter a Category.
     - System must display only matching expenses.
     - Category match must be case-insensitive.
+    - Results must be stored by amount descending.
+    - Empty category input must raise a validation error.
 4. Delete Expenses
     - User can delete an expense using it index.
     - System must:
         Validate index range.
         Return error if invalid.
+        Return error if index value is negative ot zero
+        Return error if expense store is empty
 5. Show Total Spending
     - System must calculate:
         Total sum of all expenses.
     - Must return numeric result.
+    - Must return 0.00 if no expense exist.
 6. Data Persistance
     - All expenses must be stored in:
         data/expense.json
-    - Data must persist between application runs
+    - Data must persist between application runs.
+    - Application must handle corrupted JSON gracefully.
 7. Logging
     - Application must log:
         Add operation (INFO)
@@ -38,6 +44,7 @@
         Invalid delete attempts (WARNINGS)
     - Log must be writen to: 
         logs/app.log
+    - Log file must be created automatically on first run.
 8. Input Validation
     - System must validate:
         Title cannot be empty
@@ -46,6 +53,13 @@
             Be greater than zero.
         Category cannot be empty.
     - Invalid input must raise exceptions and not crash the application.
+    - Specific error message must be returned:
+      "Title cannot be empty"
+      "Amount must be numeric"
+      "Amount must be greater than zero"
+      "Category cannot be empty"
+      "Invalid index"
+      "No expense found"
 
 
 ## Non-Functional Requirements : These describes how the system should behave.
@@ -53,7 +67,7 @@
 1. Maintainability
     - Code must be modular.
     - Business logic must be separated from CLI logic.
-    - Validation must be reusable.
+    - Validation must be reusable across all features.
 2. Testability
     - Core logic must be testable independently.
     - Unit tests must cover:
@@ -72,6 +86,7 @@
     - CLI menu must be:
         Clearly display options.
         Handle invalid menu input gracefully.
+        Allow clean exist without errors.
 
 ## System Requirements
     - Python3.9+
@@ -81,11 +96,17 @@
 ## QA Acceptance Criteria
     Application is considered complete when:
         Adding valid expenses Works
-        Adding invalid expenses shows error
+        Adding invalid expenses shows correct error message
         Deleting valid index Works
-        Deleting invalid index shows WARNINGS
+        Deleting invalid index shows WARNINGS log
+        Deleting negative or zero index shows WARNING log
         Total calculation is correct
+        Total returns 0.00 when no expenses exist
         Data persists after restart
-        Log file is generated
+        Log file is generated automatically
+        INFO log created on add and delete
+        WARNING log created on invalid delete
         Unit test pass
+        Applcation doesnot crash on any invalid input
+        Corrupted JSON is handled gracefully
 

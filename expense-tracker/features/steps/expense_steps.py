@@ -3,9 +3,9 @@
 from behave import given, when, then
 from behave.api.pending_step import StepNotImplementedError
 
-# -------------------------
-# Background Steps:
-# --------------------------
+# -------------------------------
+# Background Steps: Add Expense
+# -------------------------------
 
 
 @given("the expense tracker application is running")
@@ -202,4 +202,91 @@ def step_impl(context, title, amount, category):
     # Will verify expense survived application restart
     raise StepNotImplementedError(
         "needs core logic to verify if expense survived application restart"
+    )
+
+
+# ---------------------------------
+# Background Steps: View Expense
+# ---------------------------------
+
+
+@given("the following expenses exist:")
+def step_impl(context):
+    # Loads the expense table from the feature file into context
+    # context.table contains the rows from the Background table in the feature file
+    context.expenses = []
+    for row in context.table:
+        context.expenses.append(
+            {
+                "title": row["title"],
+                "amount": float(row["amount"]),
+                "category": row["category"],
+            }
+        )
+    # Will add expenses to expenses.json when core logic is implemented
+
+
+# ---------------------------------
+# When Steps: View Expense
+# ---------------------------------
+
+
+@when("I request to view all expenses")
+def step_impl(context):
+    # will get all expenses from the application when core logic is implemented
+    raise StepNotImplementedError(
+        "needs core logic to get all expenses from application"
+    )
+
+
+# ---------------------------------
+# Then Steps: View Expense
+# ---------------------------------
+
+
+@then("each expense should be displayed in descending order of amount")
+def step_impl(context):
+    # Will verify expenses are sorted by amount descending
+    raise StepNotImplementedError(
+        "needs core logic to verify sort order of displayed expenses"
+    )
+
+
+@then('the first expense should be "{title}" with amount {amount:f}')
+def step_impl(context, title, amount):
+    # Will verify first expense in list matches expected title and amount
+    raise StepNotImplementedError(
+        "needs core logic to verify first expense matches expected title and amount"
+    )
+
+
+@then('the last expense should be "{title}" with amount {amount:f}')
+def step_impl(context, title, amount):
+    # Will verify last expense in list matches expected title and amount
+    raise StepNotImplementedError(
+        "needs core logic to verify last expense matches expected title and amount"
+    )
+
+
+@then("each expense should be displayed with an index number")
+def step_impl(context):
+    # Will verify each displayed expense has an index number
+    raise StepNotImplementedError(
+        "needs core logic to verify each displayed expense has an index number"
+    )
+
+
+@then("the index should start from 1")
+def step_impl(context):
+    # Will verify index numbers start from 1 not 0 or some other number
+    raise StepNotImplementedError(
+        "needs core logic to verify index numbers start from 1"
+    )
+
+
+@then("the system should display an empty list message")
+def step_impl(context):
+    # Will verify system displays appropriate message when no expenses exist
+    raise StepNotImplementedError(
+        "needs core logic to verify empty list message is displayed"
     )

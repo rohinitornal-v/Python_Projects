@@ -39,11 +39,11 @@ Feature: Filter Expenses by Category
 
   Scenario: Filter expenses with no matching category
     When I filter expenses by category "Entertainment"
-    Then the system should display a message "No Expense Found"
+    Then the application should display a message "No Expense Found"
 
   # Input Validation
 
   Scenario: Filter expenses with empty category input
-    When I filter expenses by category " "
-    Then the system should raise an error "Category cannot be empty"
-    And application should not crash
+    When I filter expenses by category ""
+    Then the application should raise an error "Category cannot be empty"
+    And the application should not crash

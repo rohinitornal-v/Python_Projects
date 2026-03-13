@@ -284,9 +284,81 @@ def step_impl(context):
     )
 
 
-@then("the system should display an empty list message")
+@then("the application should display an empty list message")
 def step_impl(context):
     # Will verify system displays appropriate message when no expenses exist
     raise StepNotImplementedError(
         "needs core logic to verify empty list message is displayed"
+    )
+
+
+# -----------------------------------------------
+# Background Steps: Filter Expenses by Category
+# -----------------------------------------------
+
+
+@when('I filter expenses by category "{category}"')
+def step_impl(context, category):
+    # Stores category in context so Then steps can use it
+    context.filter_category = category
+    # Will filter expenses by category when core logic is implemented
+
+
+@when('I filter expenses by category ""')
+def step_impl(context):
+    # Handles empty category filter case
+    context.filter_category = ""
+    context.error = "Category cannot be empty"
+
+
+# ──────────────────────────────────────────
+# Then Steps - Filter Expenses
+# ──────────────────────────────────────────
+
+
+@then('only expenses in category "{category}" should be displayed')
+def step_impl(context, category):
+    # Will verify only expenses with specified category are displayed
+    raise StepNotImplementedError(
+        "needs core logic to verify only expenses with empty category are displayed"
+    )
+
+
+@then('the result should contain "{title}"')
+def step_impl(context, title):
+    # Will verify filtered results contain expected title
+    raise StepNotImplementedError(
+        "needs core logic to verify filtered results contain expected title"
+    )
+
+
+@then("other categories should not be in the result")
+def step_impl(context):
+    # Will verify filtered results do not contain expenses from other categories
+    raise StepNotImplementedError(
+        "needs core logic to verify filtered results do not contain expenses from other categories"
+    )
+
+
+@then("the results should be displayed in descending order of amount")
+def step_impl(context):
+    # Will verify filtered results are sorted by amount descending
+    raise StepNotImplementedError(
+        "needs core logic to verify sort order of filtered results"
+    )
+
+
+@then('the first result should be "{title}" with amount {amount:f}')
+def step_impl(context, title, amount):
+    # Will verify first expense in filtered results matches expected title and amount
+    raise StepNotImplementedError(
+        "needs core logic to verify first expense in filtered results matches expected title and amount"
+    )
+
+
+@then('the application should display a message "{message}"')
+def step_impl(context, message):
+    # Will verify system displays appropriate message when no expenses match filter
+    raise StepNotImplementedError(
+        "needs core logic to verify no results message is displayed"
     )

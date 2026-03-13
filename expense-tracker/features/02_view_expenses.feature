@@ -32,4 +32,4 @@ Feature: View all Expenses
   Scenario: View expenses when store is empty
     Given the expense store is empty
     When I request to view all expenses
-    Then the system should display an empty list message
+    Then the application should display an empty list message

@@ -362,3 +362,80 @@ def step_impl(context, message):
     raise StepNotImplementedError(
         "needs core logic to verify no results message is displayed"
     )
+
+
+# ------------------------------
+# When Steps - Delete Expenses
+# ------------------------------
+
+
+@when("I delete the expense at index {index:d}")
+def step_impl(context, index):
+    # Stores index in context so Then steps can use it
+    context.delete_index = index
+    # Will delete expense at specified index when core logic is implemented
+    raise StepNotImplementedError(
+        "needs core logic to delete expense at specified index"
+    )
+
+
+@when("I try to delete the expense at index {index:d}")
+def step_impl(context, index):
+    # Handles delete attempt when store is empty or index is out of bounds
+    context.delete_index = index
+    context.error = "No expenses found"
+    # Will attempt to delete expense at specified index and handle error when store is empty or index is invalid
+    raise StepNotImplementedError(
+        "needs core logic to attempt delete and handle error for empty store or invalid index"
+    )
+
+
+# ------------------------------
+# Then Steps - Delete Expenses
+# ------------------------------
+
+
+@then('the expense "{title}" should be removed from the list')
+def step_impl(context, title):
+    # Will verify expense with specified title is no longer in the list after deletion
+    raise StepNotImplementedError(
+        "needs core logic to verify expense with specified title is removed from list"
+    )
+
+
+@then('the change should be saved to "{filepath}"')
+def step_impl(context, filepath):
+    # Will verify change persisted to expenses.json
+    raise StepNotImplementedError(
+        "needs core logic to verify change is saved to specified file"
+    )
+
+
+@then("no expense should be deleted")
+def step_impl(context):
+    # Will verify no expenses were deleted when delete attempt failed
+    raise StepNotImplementedError("needs core logic to verify no expenses were deleted")
+
+
+@then('a WARNING log entry "{message}" should be written to "{filepath}"')
+def step_impl(context, message, filepath):
+    # Will verify logs/app.log contains the WARNING message for failed delete attempt
+    raise StepNotImplementedError(
+        "needs core logic to verify if WARNING log entry is written to file"
+    )
+
+
+@then('a WARNING log entry should be written to "{filepath}"')
+def step_impl(context, filepath):
+    # Will verify any WARNING message written to logs/app.log
+    raise StepNotImplementedError(
+        "needs core logic to verify if WARNING log entry is written to file"
+    )
+
+
+@then('the application should raise a validation error "{error_message}"')
+def step_impl(context, error_message):
+    # Will verify correct validation error message is raised for failed delete attempt
+    raise StepNotImplementedError(
+        "needs core logic to verify if correct validation error message is raised"
+    )

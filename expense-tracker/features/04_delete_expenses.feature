@@ -22,8 +22,8 @@ Feature: Delete Expenses
   Scenario: Successfully delete a valid expense
     When I delete the expense at index 3
     Then the expense "Bus Ticket" should be removed from the list
-    And the change should be save to "data/expenses.json"
-    And an INFO log entry "Deleted expense at index: 2" should be written to "logs/app.log"
+    And the change should be saved to "data/expenses.json"
+    And an INFO log entry "Deleted expense at index: 3" should be written to "logs/app.log"
 
   # Input Validation
 
@@ -47,7 +47,7 @@ Feature: Delete Expenses
 
   # Empty Store
 
-  Scenario: Reject delete with an store
+  Scenario: Reject delete when expense store is empty
     Given the expense store is empty
     When I try to delete the expense at index 1
     Then the application should raise a validation error "No expenses found"

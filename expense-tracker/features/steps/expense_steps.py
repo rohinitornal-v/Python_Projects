@@ -439,3 +439,71 @@ def step_impl(context, error_message):
     raise StepNotImplementedError(
         "needs core logic to verify if correct validation error message is raised"
     )
+
+
+# ──────────────────────────────────────────
+# Given Steps - Total Spending
+# ──────────────────────────────────────────
+
+
+@given("at least one expense exist:")
+def step_impl(context):
+    # Loads the expense table from the feature file into context
+    context.expenses = []
+    for row in context.table:
+        context.expenses.append(
+            {
+                "title": row["title"],
+                "amount": float(row["amount"]),
+                "category": row["category"],
+            }
+        )
+    # Will add expenses to expenses.json when core logic is implemented
+
+
+# ──────────────────────────────────────────
+# When Steps - Total Spending
+# ──────────────────────────────────────────
+
+
+@when('the user selects "{option}"')
+def step_impl(context, option):
+    # # Captures menu option selected by user
+    # Works for "Show Total", "View All" etc
+    context.menu_option = option
+
+
+# ──────────────────────────────────────────
+# Then Steps - Total Spending
+# ──────────────────────────────────────────
+
+
+@then("the application should calculate the sum of all expenses")
+def step_impl(context):
+
+    # Will calculate total of all expenses when core logic is implemented
+    raise StepNotImplementedError("needs core logic to calculate total of all expenses")
+
+
+@then("display the correct numeric total {total:f}")
+def step_impl(context, total):
+    # Will verify displayed total matches expected total
+    raise StepNotImplementedError(
+        "needs core logic to verify displayed total matches expected total"
+    )
+
+
+@then("the application should return a total {total:f}")
+def step_impl(context, total):
+    # Will verify application returns expected total when no expenses exist
+    raise StepNotImplementedError(
+        "needs core logic to verify application returns expected total when no expenses exist"
+    )
+
+
+@then("the result should be a numeric value")
+def step_impl(context):
+    # Will verify total returned is a numeric value and not a string or some other type
+    raise StepNotImplementedError(
+        "needs core logic to verify total returned is a numeric value"
+    )

@@ -6,13 +6,12 @@ Feature: Show Total Spending
   So that I can understand my overall spendings
 
   Background:
-    Given the expense tracker is running
+    Given the expense tracker application is running
 
   # Happy Path
 
   Scenario:  Calculate Total with multiple expenses
     Given the following expenses exist:
-
       | title          | amount  | category  |
       | Coffee         | 3.50    | Beverages |
       | Gym Membership | 49.99   | Fitness   |
@@ -21,17 +20,16 @@ Feature: Show Total Spending
       | Lunch          | 30.00   | Food      |
       | Tea            | 1.50    | Beverages |
     When the user selects "Show Total"
-    Then the system should calculate the sum of all expenses
+    Then the application should calculate the sum of all expenses
     And display the correct numeric total 1586.24
 
-  Scenario:  Calculate Total with single expenses
+  Scenario: Calculate Total with single expenses
     Given the following expenses exist:
-
       | title  | amount | category  |
       | Coffee | 3.50   | Beverages |
 
     When the user selects "Show Total"
-    Then the system should calculate the sum of all expenses
+    Then the application should calculate the sum of all expenses
     And display the correct numeric total 3.50
 
   # Empty Store
@@ -39,12 +37,12 @@ Feature: Show Total Spending
   Scenario: Calculate Total with no expenses
     Given the expense store is empty
     When the user selects "Show Total"
-    Then the system should return a total 0.00
+    Then the application should return a total 0.00
 
   # Data Integrity
 
   Scenario: Total result is always numeric
-    Given at least one expense exist
+    Given at least one expense exist:
       | title  | amount | category  |
       | Coffee | 3.50   | Beverages |
     When the user selects "Show Total"

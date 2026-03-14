@@ -480,7 +480,6 @@ def step_impl(context, option):
 
 @then("the application should calculate the sum of all expenses")
 def step_impl(context):
-
     # Will calculate total of all expenses when core logic is implemented
     raise StepNotImplementedError("needs core logic to calculate total of all expenses")
 
@@ -506,4 +505,58 @@ def step_impl(context):
     # Will verify total returned is a numeric value and not a string or some other type
     raise StepNotImplementedError(
         "needs core logic to verify total returned is a numeric value"
+    )
+
+
+# ──────────────────────────────────────────
+# Background Steps - Logging
+# ──────────────────────────────────────────
+
+
+@given('the log file "{filepath}" exists')
+def step_impl(context, filepath):
+    # Will verify log file exists before each scenario
+    raise StepNotImplementedError(
+        "needs core logic to verify log file exists before each scenario"
+    )
+
+
+# ──────────────────────────────────────────
+# Given Steps - Log File Creation
+# ──────────────────────────────────────────
+
+
+@given("the log file does not exist")
+def step_impl(context, filepath):
+    # Will verify log file does not exist before log creation scenario
+    raise StepNotImplementedError(
+        "needs core logic to verify log file does not exist before log creation scenario"
+    )
+
+
+# ──────────────────────────────────────────
+# When Steps - Log File Creation
+# ──────────────────────────────────────────
+
+
+@when(
+    "the expense tracker application is started and performs any operation that requires logging"
+)
+def step_impl(context):
+    # Simulates starting the application and performing an operation that triggers logging (e.g. adding an expense)
+    raise StepNotImplementedError(
+        "needs core logic to simulate starting application and performing operation that triggers logging"
+    )
+
+
+# ──────────────────────────────────────────
+# Then Steps - Log File Creation
+# ──────────────────────────────────────────
+
+
+@then('the log file "{filepath}" should be created automatically')
+def step_impl(context, filepath):
+    # Will verify the log file is created automatically
+    raise StepNotImplementedError(
+        "needs core logic to verify log file is created automatically"
     )

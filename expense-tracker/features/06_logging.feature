@@ -7,12 +7,12 @@ Feature: Application Logging
 
   Background:
     Given the expense tracker application is running
-    And the log file "log/app.log" exists
+    And the log file "logs/app.log" exists
 
   # INFO Logging
 
   Scenario: Log INFO for adding an expense
-    When I add a new expense with title "Dinner", amount 25.00, and category "Food"
+    When I add an expense with title "Dinner", amount 25.00, and category "Food"
     Then an INFO log entry "Added expense: Dinner, Amount: 25.0, Category: Food" should be written to "logs/app.log"
 
   Scenario: Log INFO for deleting an expense

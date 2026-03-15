@@ -649,3 +649,26 @@ def step_impl(context):
     raise StepNotImplementedError(
         "needs core logic to verify appropriate error message is displayed for corrupted file scenario"
     )
+
+
+# ──────────────────────────────────────────
+# Given Steps - Performance
+# ──────────────────────────────────────────
+
+
+@given("I add 1000 expenses to the store")
+def step_impl(context):
+    # Will generate and add 1000 expenses to expenses.json
+    # Used to test performance under load
+    raise StepNotImplementedError(
+        "needs core logic to generate and add 1000 expenses to expenses.json for performance testing"
+    )
+
+
+# @then step will check elapsed time:
+@then("the response time should be under {threshold:d} seconds")
+def step_impl(context, threshold):
+    # Will verify response time is under 2 seconds specified threshold
+    raise StepNotImplementedError(
+        "needs core logic to measure and verify response time is under specified threshold for performance testing"
+    )

@@ -13,36 +13,35 @@ Feature: Data Persistence
 
   Scenario: Expenses persist after application restart
 
-    Given I add a new expense with title "Lunch", amount 25.00, and category "Food"
+    Given I have added an expense with title "Lunch", amount 25.00, and category "Food"
     When the application is restarted
     Then the expense "Lunch" with amount 25.00 and category "Food" should still exist in the list of expenses
     And the amount should still be 25.00
     And the category should still be "Food"
 
   Scenario: Multiple expenses persist after application restart
-    Given the following expenses exist:
 
+    Given the following expenses exist:
       | title  | amount | category  |
       | Coffee | 3.50   | Beverages |
       | Lunch  | 25.00  | Food      |
-
     When the application is restarted
-    Then the all 2 expenses should still exist in the list of expenses
+    Then all 2 expenses should still exist in the list of expenses
 
   Scenario: Deleted expenses do not persist after restart
-    Given the following expenses exist:
 
+    Given the following expenses exist:
       | title  | amount | category  |
       | Coffee | 3.50   | Beverages |
       | Lunch  | 25.00  | Food      |
-
     When I delete the expense at index 1
     And the application is restarted
-    Then only 1 expense shouldl exist in the list of expenses
+    Then only 1 expense should exist in the list of expenses
 
   # Error Handling
 
   Scenario: Application handles corrupted JSON file gracefully
+
     Given the file "data/expenses.json" contains invalid JSON
     When I start the application
     Then the application should not crash

@@ -560,3 +560,92 @@ def step_impl(context, filepath):
     raise StepNotImplementedError(
         "needs core logic to verify log file is created automatically"
     )
+
+
+# ──────────────────────────────────────────
+# Background Steps - Data Persistence
+# ──────────────────────────────────────────
+
+
+@given('the expense data file "{filepath}" exists')
+def step_impl(context, filepath):
+    # WILL verify expenses.json exists before each scenario
+    raise StepNotImplementedError(
+        "needs core logic to verify expenses.json exists before each scenario"
+    )
+
+
+# ──────────────────────────────────────────
+# Then Steps - Data Persistence
+# ──────────────────────────────────────────
+
+
+@then(
+    'the expense "{title}" with amount {amount:f} and category "{category}" should still exist in the list of expenses'
+)
+def step_impl(context, title, amount, category):
+    # Will verify the expense survived application restart
+    raise StepNotImplementedError(
+        "needs core logic to verify expense with specified title, amount and category still exists in list of expenses after application restart"
+    )
+
+
+@then("the amount should still be {amount:f}")
+def step_impl(context, amount):
+    # Will verify amount value persisted correctly
+    raise StepNotImplementedError(
+        "needs core logic to verify amount value persisted correctly after application restart"
+    )
+
+
+@then('the category should still be "{category}"')
+def step_impl(context, category):
+    # Will verify category value persisted correctly
+    raise StepNotImplementedError(
+        "needs core logic to verify category value persisted correctly after application restart"
+    )
+
+
+@then("all {count:d} expenses should still exist in the list of expenses")
+def step_impl(context, count):
+    # Will verify correct number of expenses persisted after restart
+    raise StepNotImplementedError(
+        "needs core logic to verify correct number of expenses persisted after application restart"
+    )
+
+
+@then("only {count:d} expense should exist in the list of expenses")
+def step_impl(context, count):
+    # Will verify correct number of expenses after delete and restart
+    raise StepNotImplementedError(
+        "needs core logic to verify correct number of expenses persisted after application restart when some expenses were deleted before restart"
+    )
+
+
+# ──────────────────────────────────────────
+# Given, When, Then Steps - Error Handling
+# ──────────────────────────────────────────
+
+
+@given('the file "{filepath}" contains invalid JSON')
+def step_impl(context, filepath):
+    # Will corrupt expenses.json to simulate corrupted file
+    raise StepNotImplementedError(
+        "needs core logic to corrupt expenses.json to simulate corrupted file scenario"
+    )
+
+
+@when("I start the application")
+def step_impl(context):
+    # Will simulate application start
+    raise StepNotImplementedError(
+        "needs core logic to simulate application start for corrupted file scenario"
+    )
+
+
+@then("the system should display an appropriate error message")
+def step_impl(context):
+    # Will verify appropriate error message displayed
+    raise StepNotImplementedError(
+        "needs core logic to verify appropriate error message is displayed for corrupted file scenario"
+    )

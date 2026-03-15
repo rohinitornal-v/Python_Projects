@@ -14,7 +14,7 @@ Feature: CLI Usability
   Scenario: Display main menu on startup
     When I start the application
     Then the CLI should display the following options:
-      | option                         |
+      | Option                         |
       | 1. Add Expense                 |
       | 2. View All Expenses           |
       | 3. Filter Expenses by Category |
@@ -25,7 +25,7 @@ Feature: CLI Usability
   Scenario: Handle invalid menu option gracefully
     Given the main menu is displayed
     When I enter an invalid option "9xyz"
-    Then the CLI should display an error message "Invalid option, please try again."
+    Then the application should display "Invalid option, please try again."
     And the main menu should be displayed again
     And the application should not crash
 
@@ -34,12 +34,12 @@ Feature: CLI Usability
     When I enter an empty menu option
     Then the application should display "Invalid option, please try again."
     And the main menu should be displayed again
-    And the applicaation should not crash
+    And the application should not crash
 
   # Exit
 
   Scenario: Exit the application cleanly
-    Given the main mmenu is displayed
+    Given the main menu is displayed
     When I select menu option "6"
     Then the application should display "Goodbye!"
     And the application should terminate without errors

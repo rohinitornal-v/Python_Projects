@@ -672,3 +672,81 @@ def step_impl(context, threshold):
     raise StepNotImplementedError(
         "needs core logic to measure and verify response time is under specified threshold for performance testing"
     )
+
+
+# ──────────────────────────────────────────
+# Given Steps - CLI Usability
+# ──────────────────────────────────────────
+
+
+@given("the main menu is displayed")
+def step_impl(context):
+    # Will simulate main menu being displayed when application starts
+    raise StepNotImplementedError(
+        "needs core logic to simulate main menu being displayed on application start"
+    )
+
+
+@then("the CLI should display the following options:")
+def step_impl(context):
+    # context.table contains the expected menu options
+    # Will verify each option is displayed in the CLI
+    raise StepNotImplementedError(
+        "needs core logic to verify each expected menu option is displayed in the CLI"
+    )
+
+
+# ──────────────────────────────────────────
+# When Steps - Invalid Input
+# ──────────────────────────────────────────
+
+
+@when('I enter an invalid option "{option}"')
+def step_impl(context, option):
+    # Captures the invalid option entered by the user in context
+    context.menu_input = option
+
+
+@when("I enter an empty menu option")
+def step_impl(context):
+    # Stores empty string as menu input
+    context.menu_input = ""
+
+
+@when('I select menu option "{option:d}"')
+def step_impl(context):
+    # Stores selected menu option in context
+    context.menu_input = option
+
+
+# ──────────────────────────────────────────
+# Then Steps - Invalid Input Handling
+# ──────────────────────────────────────────
+
+
+@then('the application should display "{message}"')
+def step_impl(context, message):
+    raise StepNotImplementedError(
+        "needs core logic to verify application displays expected message for invalid input"
+    )
+
+
+@then("the main menu should be displayed again")
+def step_impl(context):
+    # Will verify menu is redisplayed after invalid input
+    raise StepNotImplementedError(
+        "needs core logic to verify main menu is displayed again after invalid input"
+    )
+
+
+# ──────────────────────────────────────────
+# Then Steps - Exit
+# ──────────────────────────────────────────
+
+
+@then("the application should terminate without errors")
+def step_impl(context):
+    # Will verify application exits cleanly with no exceptions
+    raise StepNotImplementedError(
+        "needs core logic to verify application exits cleanly with no exceptions"
+    )

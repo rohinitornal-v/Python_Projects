@@ -7,13 +7,9 @@ class ValidationError(Exception):
     pass
 
 
-# def validate_non_empty_string(value, field_name):
-#   """
-#  Validate that the input is a non-empty string.
-# """
-# if not isinstance(value, str) or not value.strip():
-#   raise ValidationError(f"{field_name} must be a non-empty string.")
-# return value.strip()
+# ──────────────────────────────────────────
+# Validation Functions
+# ──────────────────────────────────────────
 
 
 def validate_title(title):
@@ -51,5 +47,8 @@ def validate_index(index, expenses):
     - Must be greater than 0
     - Must be within the valid range
     """
+    if not expenses:
+        raise ValidationError("No expenses found.")
+    # Check index is within valid range
     if index <= 0 or index > len(expenses):
         raise ValidationError("Index must be greater than 0.")

@@ -1,10 +1,12 @@
-"""Expense Manager module for managing expenses and budgets.
-This module provides the ExpenseManager class, which allows users to add expenses - with core business logic
+"""expense_manager.py - Core Business Logic
+Handles all expense operations for the Expense Tracker.
+This is the heart of the application.
 """
 
 import json
 import os
 
+from app.logger import log_info, log_warning
 
 from app.validator import (
     validate_title,
@@ -23,7 +25,8 @@ DATA_FILE = "data/expenses.json"
 
 
 def load_expenses():
-    """Load expenses from the JSON file."""
+    """Load all expenses from the JSON file."""
+
     if not os.path.exists(DATA_FILE):
         return []
     try:
@@ -48,26 +51,34 @@ def save_expenses(expenses):
 
 def add_expense(title, amount, category):
     """Add a new expense after validating the input."""
-    try:
-        validate_title(title)
-        validate_amount(amount)
-        validate_category(category)
+    validate_title(title)
+    amount = validate_amount(amount)
+    validate_category(category)
 
-        expenses = load_expenses()
-        new_expense = {"title": title, "amount": amount, "category": category}
-        expenses.append(new_expense)
-        save_expenses(expenses)
-        print("Expense added successfully.")
-    except ValidationError as e:
-        print(f"Error adding expense: {e}")
+    new_expense = {
+        "title": title.strip(),
+        "amount": amount,
+        "category": category.strip(),
+    }
+
+    expenses = load_expenses()
+    expenses.append(new_expense)
+    save_expenses(expenses)
+
+    # Log the successful operation at INFO level
+
+    log_info(f"Added expense: {title} - ${amount:.2f} in category '{category}'")
+    return new_expense
 
 
 def get_all_expenses():
     """Get all expenses
     - Returns sorted by amount descending
+    - Highest amount appears first.
     - Returns empty list if no expenses
     """
     expenses = load_expenses()
+
     return sorted(expenses, key=lambda x: x["amount"], reverse=True)
 
 
@@ -78,6 +89,7 @@ def filter_by_category(category):
     - Returns sorted by amount descending
     - Returns empty list if no matches
     """
+
     validate_category(category)
     expenses = load_expenses()
     filtered = [
@@ -85,6 +97,7 @@ def filter_by_category(category):
         for expense in expenses
         if expense["category"].lower() == category.lower()
     ]
+
     return sorted(filtered, key=lambda x: x["amount"], reverse=True)
 
 
@@ -97,7 +110,11 @@ def delete_expense(index):
     - Returns deleted expense
     """
     expenses = load_expenses()
-    validate_index(index, expenses)
+    try:
+        validate_index(index, expenses)
+    except ValidationError:
+        log_warning(f"Invalid delete index: {index}")
+        raise
     # Sort to match what user sees on screen
     sorted_expenses = sorted(expenses, key=lambda x: x["amount"], reverse=True)
 
@@ -106,8 +123,10 @@ def delete_expense(index):
 
     # Remove from original unsorted list
     expenses.remove(expense_to_delete)
+
+    # Save updated list back to the file
     save_expenses(expenses)
-    print(
+    log_info(
         f"Deleted expense: {expense_to_delete['title']} - ${expense_to_delete['amount']:.2f}"
     )
     return expense_to_delete

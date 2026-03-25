@@ -2,6 +2,16 @@
 
 from behave import given, when, then
 from behave.api.pending_step import StepNotImplementedError
+import os
+
+# Connect to core application logic
+from app.expense_manager import (
+    add_expense,
+    load_expenses,
+    save_expenses,
+)
+from app.validator import ValidationError
+from app.logger import LOG_FILE
 
 # -------------------------------
 # Background Steps: Add Expense
@@ -17,8 +27,14 @@ def step_impl(context):
 
 @given("the expense store is empty")
 def step_impl(context):
-    # Will clear expenses.json when core logic is implemented
-    raise StepNotImplementedError("need core logic to clear expense store")
+    # Clear persisted store so each scenario starts clean
+    try:
+        save_expenses([])
+    except Exception:
+        # fallback: remove file if exists
+        data_file = "data/expenses.json"
+        if os.path.exists(data_file):
+            os.remove(data_file)
 
 
 # --------------------------------
@@ -34,11 +50,12 @@ def step_impl(context, title, amount, category):
     context.title = title
     context.amount = amount
     context.category = category
-    context.last_expense = {
-        "title": title,
-        "amount": amount,
-        "category": category,
-    }
+    context.exception = None
+    try:
+        context.last_expense = add_expense(title, amount, category)
+    except ValidationError as e:
+        context.exception = e
+        context.last_expense = None
 
 
 # @then('the expense should be saved to "{filepath}"')
@@ -57,11 +74,16 @@ def step_impl(context, title, amount, category):
     'I try to add an expense with title "{title}", amount {amount:f}, and category "{category}"'
 )
 def step_impl(context, title, amount, category):
-    # Handles numeric amounts that are invalid (zero, negative)
+    # Attempt to add and capture validation errors (zero/negative amounts)
     context.title = title
     context.amount = amount
     context.category = category
-    context.error = "Amount must be greater than 0"
+    context.exception = None
+    try:
+        context.last_expense = add_expense(title, amount, category)
+    except ValidationError as e:
+        context.exception = e
+        context.last_expense = None
 
 
 @when(
@@ -73,7 +95,12 @@ def step_impl(context, title, amount, category):
     context.title = title
     context.amount = amount
     context.category = category
-    context.error = "Amount must be a valid number"
+    context.exception = None
+    try:
+        context.last_expense = add_expense(title, amount, category)
+    except ValidationError as e:
+        context.exception = e
+        context.last_expense = None
 
 
 # ──────────────────────────────────────────
@@ -89,7 +116,12 @@ def step_impl(context, amount, category):
     context.title = ""
     context.amount = amount
     context.category = category
-    context.error = "Title cannot be empty"
+    context.exception = None
+    try:
+        context.last_expense = add_expense("", amount, category)
+    except ValidationError as e:
+        context.exception = e
+        context.last_expense = None
 
 
 @when(
@@ -100,7 +132,12 @@ def step_impl(context, title, amount):
     context.title = title
     context.amount = amount
     context.category = ""
-    context.error = "Category cannot be empty"
+    context.exception = None
+    try:
+        context.last_expense = add_expense(title, amount, "")
+    except ValidationError as e:
+        context.exception = e
+        context.last_expense = None
 
 
 # ──────────────────────────────────────────
@@ -121,13 +158,20 @@ def step_impl(context, title, amount, category):
         "amount": amount,
         "category": category,
     }
-    # Will add expense to expenses.json when core logic is implemented
+    # Persist using core logic
+    try:
+        add_expense(title, amount, category)
+    except ValidationError:
+        # If validation fails here the feature is mis-specified
+        pass
 
 
 @when("the application is restarted")
 def step_impl(context):
-    # Simulates application restart when core logic is implemented (e.g. reloading expenses from file)
-    raise StepNotImplementedError("needs core logic to simulate application restart")
+    # For our simple persistence model, restarting does nothing special because
+    # data is read from disk on demand; we can clear any in-memory caches if needed.
+    # No-op here.
+    pass
 
 
 # ──────────────────────────────────────────
@@ -137,28 +181,38 @@ def step_impl(context):
 
 @then('the expense should be saved to "{filepath}"')
 def step_impl(context, filepath):
-    # Will verify if expense is saved to expenses.json when core logic is implemented
-    raise StepNotImplementedError(
-        "needs core logic to verify if expense is saved to file"
-    )
+    # Verify the persisted file contains an expense matching last_expense
+    assert os.path.exists(filepath), f"Data file {filepath} does not exist"
+    expenses = load_expenses()
+    assert any(
+        e.get("title") == context.last_expense.get("title")
+        and float(e.get("amount")) == float(context.last_expense.get("amount"))
+        and e.get("category") == context.last_expense.get("category")
+        for e in expenses
+    ), f"Expected expense not found in {filepath}"
 
 
 @then(
     'the expense list should contain an entry with title "{title}", amount {amount:f}, category "{category}"'
 )
 def step_impl(context, title, amount, category):
-    # Will verify if expense list contains the expected entry when core logic is implemented
-    raise StepNotImplementedError(
-        "needs core logic to verify if expense list contains expected entry"
-    )
+    expenses = load_expenses()
+    assert any(
+        e.get("title") == title
+        and float(e.get("amount")) == float(amount)
+        and e.get("category") == category
+        for e in expenses
+    ), f"Expected entry ({title}, {amount}, {category}) not found"
 
 
 @then('an INFO log entry "{message}" should be written to "{filepath}"')
 def step_impl(context, message, filepath):
-    # Will verify logs/app.log contains the INFO message
-    raise StepNotImplementedError(
-        "needs core logic to verify if INFO log entry is written to file"
-    )
+    assert os.path.exists(filepath), f"Log file {filepath} does not exist"
+    with open(filepath, "r") as fh:
+        contents = fh.read()
+    assert (
+        message in contents
+    ), f"Expected log message '{message}' not found in {filepath}"
 
 
 # ──────────────────────────────────────────
@@ -168,18 +222,29 @@ def step_impl(context, message, filepath):
 
 @then('the application should raise an error "{error_message}"')
 def step_impl(context, error_message):
-    # Will verify correct error message is raised
-    raise StepNotImplementedError(
-        "needs core logic to verify if correct error message is raised"
-    )
+    assert getattr(context, "exception", None) is not None, "No exception was raised"
+    actual = str(context.exception)
+    # allow partial matches and ignore punctuation/case
+    assert (
+        error_message.lower() in actual.lower()
+    ), f"Expected error '{error_message}' but got '{actual}'"
 
 
 @then('no expense should be saved to "{filepath}"')
 def step_impl(context, filepath):
-    # Will verify expenses.json is not modified
-    raise StepNotImplementedError(
-        "needs core logic to verify if no expense is saved to file"
-    )
+    # Verify that either the file doesn't exist or it does not contain the last_expense
+    if not os.path.exists(filepath):
+        return
+    expenses = load_expenses()
+    if getattr(context, "last_expense", None) is None:
+        # nothing was added
+        return
+    assert not any(
+        e.get("title") == context.last_expense.get("title")
+        and float(e.get("amount")) == float(context.last_expense.get("amount"))
+        and e.get("category") == context.last_expense.get("category")
+        for e in expenses
+    ), f"Unexpected expense found in {filepath}"
 
 
 @then("the application should not crash")

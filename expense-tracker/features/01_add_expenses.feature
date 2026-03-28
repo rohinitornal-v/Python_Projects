@@ -15,7 +15,7 @@ Feature: Add Expense
     When I add an expense with title "Lunch", amount 12.50, and category "Food"
     Then the expense should be saved to "data/expenses.json"
     And the expense list should contain an entry with title "Lunch", amount 12.50, category "Food"
-    And an INFO log entry "Added Expenses: Lunch" should be written to "logs/app.log"
+    And an INFO log entry "Added expense: Lunch" should be written to "logs/app.log"
 
   Scenario Outline: Successfully add expenses with various valid inputs
     When I add an expense with title "<title>", amount <amount>, and category "<category>"

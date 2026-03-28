@@ -12,182 +12,167 @@ So that I can track my spending
 ## Scenario: Add valid expense
 Given the application is running
 When the user enters a valid title, amount, and category
-Then the expense should be saved
-And the expense should persist in expense.json
-And a log entry should be created
+# Expense Tracker — BDD Requirements
+Author: Rohini
+Version: 1.0
 
-## Scenario: Add expense with empty title
-Given the application is running
-When the user enters an empty title
-Then the system should display an error
-And the expense should not be saved
-And the application should not crash
+The following Gherkin scenarios capture the behaviour of the Expense Tracker CLI.
 
-## Scenario: Add expense with zero amount
-Given the application is running
-When the user enters amount as 0
-Then the system should display an error "Amount must be greater than 0"
-And the expense should not be saved
-And the application should not crash
+```gherkin
+Feature: Add expenses
+    In order to track spending
+    As a user
+    I want to add expenses with a title, amount and category
 
-## Scenario: Add expense with negative amount
-Given the application is running
-When the user enter negative amount
-Then the system should display an error "Enter amount greater than 0"
-And the expense should not be saved
-And the application should not crash
+    Background:
+        Given the application is running
 
-##Scenario: Add expense with non-numeric amount
-Given the application is running
-When the user enters non-numeric amount
-Then the system should display an error "Amount must be numeric"
-And the expense should not be saved
-And the application should not crash
+    Scenario: Add a valid expense
+        When I add an expense with title "Lunch", amount 12.50 and category "Food"
+        Then the expense is saved
+        And the expense appears in the expense list
+        And the expense persists in "data/expenses.json"
+        And an INFO log entry is created
 
-## Scenario: Add expense with empty category
-Given the application is running
-When the user enters an empty category
-Then the system should display an error
-And the expense should not be saved
-And the application should not crash
+    Scenario Outline: Reject invalid expense inputs
+        When I add an expense with title "<title>", amount <amount> and category "<category>"
+        Then the expense is not saved
+        And an error message "<error>" is shown
 
-## Scenario Outline: Successfully add expenses with various valid inputs
-Given the applicaiton is running
-When the useer enters title "<title>", amount "<amount>", and category "<category>"
-Then the expense should be saved to "data/expenses.json"
+        Examples:
+            | title | amount | category  | error                             |
+            | ""   | 10     | Food      | Title cannot be empty             |
+            | Tea   | 0      | Beverages | Amount must be greater than 0     |
+            | Bus   | -5     | Transport | Amount must be greater than 0     |
+            | Cake  | abc    | Food      | Amount must be numeric            |
+            | Cake  | 5      | ""       | Category cannot be empty          |
+```
 
-Examples:
-  | title          | amount  | category  |
-  | Coffee         | 3.50    | Beverages |
-  | Gym Membership | 49.99   | Fitness   |
-  | Bus Ticket     | 1.25    | Transport |
-  | Rent           | 1500.00 | Housing   |
-  | Lunch          | 30.00   | FOod      |
+```gherkin
+Feature: View expenses
+    In order to review spending
+    As a user
+    I want to view all stored expenses
 
-## Scenario: Expense data persists after application restart
-Given I have added an expense with title "Lunch", amount 30.00, and category "Food"
-When the applicaiton restarted
-Then the expense list should contain "Lunch"
+    Background:
+        Given the application is running
 
-# Feature 2 : View All Expenses
-As a user
-I want to view all expenses
-So that I can review my spending
+    Scenario: View all expenses when records exist
+        Given the following expenses exist:
+            | title | amount | category |
+            | Lunch | 12.50  | Food     |
+            | Rent  | 800.00 | Housing  |
+        When I request to view all expenses
+        Then I see a list containing 2 expenses
+        And each expense shows title, amount and category
 
-## Scenario: View expenses when record exist
-Given there are stored expenses
-When the user selects "View All"
-Then all expenses should be displayed
-And they should be sorted by amount decending
-And each expense shoiuld be displayed with an index number starting from 1
+    Scenario: View all expenses when none exist
+        Given no expenses are stored
+        When I request to view all expenses
+        Then I see the message "No Expenses Found"
+```
 
-## Scenario: View expenses when empty
-Given there are no stored expenses
-When the user selects "View All"
-Then the system should display "No Expenses Found"
+```gherkin
+Feature: Filter expenses by category
+    In order to analyse category spending
+    As a user
+    I want to filter expenses by category
 
-# Feature 3 : Filter Expenses By Category
-As a User
-I want to filter expenses by category
-So that I can see category-based spending
+    Background:
+        Given the application is running
 
-## Scenario: Filter Expenses with an exact matching category
-Given stored expenses exist
-When the user filters by category "Food"
-Then only "Food" expenses should be displayed
+    Scenario: Filter returns matching category (case-insensitive)
+        Given the following expenses exist:
+            | title | amount | category |
+            | Coffee| 3.50   | Food     |
+            | Pizza | 10.00  | food     |
+        When I filter expenses by category "food"
+        Then I see only expenses in category "Food"
 
-## Scenario: Filter Expenses with case-insensitive category match
-Given stored expenses exist
-When the user filters by category "food"
-Then only "Food" expenses should be displayed
+    Scenario: Filter with no matches
+        Given stored expenses exist
+        When I filter expenses by category "Nonexistent"
+        Then I see the message "No expenses found"
+```
 
-## Scenario: Filter Expenses with no matching category
-Given stored expenses exist
-When the user filters by category with no matches
-Then the system should display "No expenses found"
+```gherkin
+Feature: Delete expenses
+    In order to remove mistakes
+    As a user
+    I want to delete an expense by index
 
-## Scenario: Filter Expenses with empty category input
-Given stored expenses exist
-When the user filters by empty category
-Then the system should display an error "Category cannot be empty"
+    Background:
+        Given the application is running
 
-## Scenario: Filter results are stored by amount decending
-Given stored expenses exist
-When the user filters by category "Food"
-Then the results should be displayed in decensing order of amount
+    Scenario: Delete an expense with valid index
+        Given the following expenses exist:
+            | title | amount | category |
+            | Tea   | 2.50   | Food     |
+        When I delete the expense at index 1
+        Then the expense is removed from the list
+        And the change persists in "data/expenses.json"
+        And an INFO log entry is created
 
-# Feature 4 : Delete expenses
-As a User
-I want to delete an expense
-So that I can correct mistakes
+    Scenario: Attempt to delete with invalid index
+        Given stored expenses exist
+        When I delete the expense at index 99
+        Then no expense is removed
+        And an error message "Invalid index" is shown
+        And a WARNING log entry is created
+```
 
-## Scenario: Delete valid expense
-Given stored expenses exist
-When the user enters valid index
-Then the expense should be deleted
-And the change should persist in expenses.json
-And a log enrty should be created
+```gherkin
+Feature: Show total spending
+    In order to understand total outflow
+    As a user
+    I want to see the total amount spent
 
-## Scenario: Delete invalid Index
-Given stored expenses exist
-When the user enters an invalid index (out of range index) or negative index
-Then the system should display an error
-And no expense should be deleted
-And a warning log should be created
+    Background:
+        Given the application is running
 
-## Scenario: Delete when expense store is empty
-Given the expense store is empty
-When the user attempts to delete at index 1
-Then the system should display an error
-And a warning log should be created
+    Scenario: Calculate total with multiple expenses
+        Given the following expenses exist:
+            | title | amount | category |
+            | A     | 1.00   | Misc     |
+            | B     | 2.50   | Misc     |
+        When I request the total spending
+        Then the displayed total is 3.50
 
-# Feature 5 : Show Total Spending
-As a User
-I want to see the total amount spent
-So that I can understand overall spending
+    Scenario: Calculate total when no expenses exist
+        Given no expenses are stored
+        When I request the total spending
+        Then the displayed total is 0.00
+```
 
-## Scenario: Calculate Total with multiple expenses
-Given stored expenses exist
-When the user selects "Show Total"
-Then the system should calculate the sum of all expenses
-And display the correct numeric total
+```gherkin
+Feature: Data persistence and resilience
+    In order to keep user data safe
+    As the application
+    I must persist data and handle corrupted storage
 
-## Scenario: Calculate Total with no expenses
-Given the expense store is empty
-When the user selects "Show Total"
-Then the system should return a total 0.00
+    Background:
+        Given the application is running
 
-## Scenario: Total result is always numeric
-Given at least one expense exist
-When the user selects "Show Total"
-Then the result should be a numeric value
+    Scenario: Data persists between runs
+        Given I add an expense with title "Lunch" and amount 10.00 and category "Food"
+        When the application restarts
+        Then the expense list contains an expense with title "Lunch"
 
-# Non-Functional Requirements
+    Scenario: Handle corrupted JSON store gracefully
+        Given data/expenses.json is corrupted
+        When the application starts
+        Then the application warns "Data file corrupted"
+        And the application does not crash
+        And the application offers to recover or recreate the data file
+```
 
-## Logging
-    - All successfull add and delete operations must log at INFO level
-    - Invalid operations must log at WARNING level
-    - Logs must be written to log/app.log
+# Non-functional requirements
 
-## Data Persistance
-    - Data must be stored in data/expenses.json
-    - Data must persist between application runs
-    - Application must handle corrupted JSON gracefully
+- **Logging**: success operations log at INFO; invalid attempts log at WARNING. Logs written to logs/app.log.
+- **Storage**: expenses are stored in data/expenses.json and must survive restarts.
+- **Error handling**: invalid inputs and corrupted JSON must be handled gracefully; CLI must not crash.
+- **Testability**: business logic separated from CLI to allow unit tests.
+- **Performance**: should handle ~1000 expenses without noticeable delay.
+- **Environment**: Python 3.9+; cross-platform (macOS/Windows/Linux).
 
-## Error handling
-    - Application must not crash on invalid user input
-    - JSON corruption must be handled gracefully
-    - All exceptions must be caught and communicated clearly to the user
-
-## Testability
-    - Bussiness logic must be unit testable
-    - CLI logic must be seperate from core logic
-    - Validation must be reusable across all features
-
-## Performance
-    - Application should handle at least 1000 expenses without noticeable delay
-  
-## System Requirements
-    - Python 3.9+
-    - No external libraries required
-    - Works on macOS/Windows/Linux
+``` 

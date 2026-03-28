@@ -28,7 +28,7 @@ def validate_amount(amount):
     try:
         amount = float(amount)
     except (ValueError, TypeError):
-        raise ValidationError("Amount must be a number.")
+        raise ValidationError("Amount must be numeric")
     if amount <= 0:
         raise ValidationError("Amount must be greater than 0.")
     return amount
@@ -51,4 +51,4 @@ def validate_index(index, expenses):
         raise ValidationError("No expenses found.")
     # Check index is within valid range
     if index <= 0 or index > len(expenses):
-        raise ValidationError("Index must be greater than 0.")
+        raise ValidationError("Invalid Index")

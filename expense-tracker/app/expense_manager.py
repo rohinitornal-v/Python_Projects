@@ -6,7 +6,9 @@ This is the heart of the application.
 import json
 import os
 
-from app.logger import log_info, log_warning
+from app.logger import logger, setup_logger
+
+logger = setup_logger()
 
 from app.validator import (
     validate_title,
@@ -19,14 +21,14 @@ from app.validator import (
 # Path to expenses data file
 DATA_FILE = "data/expenses.json"
 
+
 # -------------------------------------
-# File Operation
-# --------------------------------------
+# File Operations
+# -------------------------------------
 
 
 def load_expenses():
     """Load all expenses from the JSON file."""
-
     if not os.path.exists(DATA_FILE):
         return []
     try:
@@ -46,7 +48,7 @@ def save_expenses(expenses):
 
 # -------------------------------------
 # Expense Manager - Core Operations
-# --------------------------------------
+# -------------------------------------
 
 
 def add_expense(title, amount, category):
@@ -65,31 +67,18 @@ def add_expense(title, amount, category):
     expenses.append(new_expense)
     save_expenses(expenses)
 
-    # Log the successful operation at INFO level
-
-    log_info(f"Added expense: {title} - ${amount:.2f} in category '{category}'")
+    logger.info(f"Added expense: {title}, Amount: {amount}, Category: {category}")
     return new_expense
 
 
 def get_all_expenses():
-    """Get all expenses
-    - Returns sorted by amount descending
-    - Highest amount appears first.
-    - Returns empty list if no expenses
-    """
+    """Get all expenses sorted by amount descending."""
     expenses = load_expenses()
-
     return sorted(expenses, key=lambda x: x["amount"], reverse=True)
 
 
 def filter_by_category(category):
-    """
-    Filter expenses by category
-    - Case insensitive match
-    - Returns sorted by amount descending
-    - Returns empty list if no matches
-    """
-
+    """Filter expenses by category (case-insensitive) sorted by amount descending."""
     validate_category(category)
     expenses = load_expenses()
     filtered = [
@@ -97,46 +86,40 @@ def filter_by_category(category):
         for expense in expenses
         if expense["category"].lower() == category.lower()
     ]
-
     return sorted(filtered, key=lambda x: x["amount"], reverse=True)
 
 
 def delete_expense(index):
     """
-    Delete expense by index
-    - Index is 1-based
-    - Index refers to position in sorted list
-    - Validates index range
+    Delete expense by index (1-based)
+    - Raises ValidationError for invalid index
     - Returns deleted expense
     """
+    from app.logger import log_info, log_warning, ensure_log_file
+
+    ensure_log_file()
+
     expenses = load_expenses()
-    try:
-        validate_index(index, expenses)
-    except ValidationError:
+
+    if not expenses:
+        log_warning("No expenses found")
+        raise ValidationError("No expenses found")
+
+    if index <= 0 or index > len(expenses):
         log_warning(f"Invalid delete index: {index}")
-        raise
-    # Sort to match what user sees on screen
-    sorted_expenses = sorted(expenses, key=lambda x: x["amount"], reverse=True)
+        raise ValidationError("Invalid Index")
 
-    # Get expense to delete from sorted list
-    expense_to_delete = sorted_expenses[index - 1]
+    # Delete using original order
+    deleted = expenses.pop(index - 1)
 
-    # Remove from original unsorted list
-    expenses.remove(expense_to_delete)
-
-    # Save updated list back to the file
     save_expenses(expenses)
-    log_info(
-        f"Deleted expense: {expense_to_delete['title']} - ${expense_to_delete['amount']:.2f}"
-    )
-    return expense_to_delete
+
+    log_info(f"Deleted expense at index: {index}")
+
+    return deleted
 
 
 def get_total():
-    """
-    Calculate total spending
-    - Returns sum of all expense amounts
-    - Returns 0.00 if no expenses exist
-    """
+    """Calculate total spending (sum of amounts)."""
     expenses = load_expenses()
     return round(sum(e["amount"] for e in expenses), 2)

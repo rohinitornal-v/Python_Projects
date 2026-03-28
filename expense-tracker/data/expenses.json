@@ -1,7 +1,12 @@
 [
     {
         "title": "Tea",
-        "amount": 2.0,
+        "amount": 3.0,
         "category": "Beverages"
+    },
+    {
+        "title": "Chips",
+        "amount": 11.25,
+        "category": "Snacks"
     }
 ]

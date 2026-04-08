@@ -19,7 +19,7 @@ from app.validator import (
 )
 
 # Path to expenses data file
-DATA_FILE = "data/expenses.json"
+DATA_FILE = os.environ.get("EXPENSE_DATA_FILE", "data/expenses.json")
 
 
 # -------------------------------------

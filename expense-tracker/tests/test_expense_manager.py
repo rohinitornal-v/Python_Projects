@@ -2,6 +2,7 @@
 test_expense_manager.py - pytest Unit Tests
 """
 
+import time
 import os
 import sys
 import pytest
@@ -331,3 +332,15 @@ class TestGetTotal:
         delete_expense(2)  # deletes Lunch (highest)
         result = get_total()
         assert result == 3.50
+
+
+# -------------------------
+# Tests - Performance
+# -------------------------
+
+
+class TestPerformance:
+    """Performance test for expense_manager functions."""
+
+    def setup_method(self):
+        """Add 1000 expenses before each performance test."""

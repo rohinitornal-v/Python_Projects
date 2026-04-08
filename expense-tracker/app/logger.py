@@ -7,7 +7,7 @@ import logging
 import os
 
 # Path to log file
-LOG_FILE = os.path.join(os.path.dirname(__file__), "..", "logs", "app.log")
+LOG_FILE = os.environ.get("EXPENSE_LOG_FILE", "logs/app.log")
 
 
 def setup_logger():

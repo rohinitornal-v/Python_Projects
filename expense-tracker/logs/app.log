@@ -1,0 +1,1127 @@
+<<<<<<< HEAD
+=======
+2026-03-28 11:33:07 - INFO - Added expense: Tea, Amount: 3.0, Category: Beverages
+2026-03-28 11:33:44 - INFO - Added expense: Chips, Amount: 11.25, Category: Snacks
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-06 12:34:09 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-06 12:34:09 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:34:09 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:34:09 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - WARNING - Invalid delete index: 0
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - WARNING - Invalid delete index: -1
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - WARNING - Invalid delete index: 99
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - WARNING - No expenses found
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:34:09 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:34:09 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-06 12:37:25 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-06 12:37:25 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:25 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:25 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - WARNING - Invalid delete index: 0
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - WARNING - Invalid delete index: -1
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - WARNING - Invalid delete index: 99
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - WARNING - No expenses found
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:25 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:25 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-06 12:37:38 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-06 12:37:38 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-06 12:37:38 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-06 12:37:38 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - WARNING - Invalid delete index: 0
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - WARNING - Invalid delete index: -1
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - WARNING - Invalid delete index: 99
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - WARNING - No expenses found
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-06 12:37:38 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-06 12:37:38 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:00:17 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:00:17 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:00:17 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:00:17 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - WARNING - Invalid delete index: 0
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - WARNING - Invalid delete index: -1
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - WARNING - Invalid delete index: 99
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - WARNING - No expenses found
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:00:17 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:00:17 - INFO - Deleted expense at index: 1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:13:40 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:13:40 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:13:40 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:13:40 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 2
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - WARNING - Invalid delete index: 0
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - WARNING - Invalid delete index: -1
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - WARNING - Invalid delete index: 99
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - WARNING - No expenses found
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:13:40 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:13:40 - INFO - Deleted expense at index: 2
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:19:07 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:19:07 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:19:07 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:19:07 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 2
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 1
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 1
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 1
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 1
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - WARNING - Invalid delete index: 0
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - WARNING - Invalid delete index: -1
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - WARNING - Invalid delete index: 99
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - WARNING - No expenses found
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:19:07 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:19:07 - INFO - Deleted expense at index: 2
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:22:14 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:22:14 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:14 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:14 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 2
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - WARNING - Invalid delete index: 0
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - WARNING - Invalid delete index: -1
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - WARNING - Invalid delete index: 99
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - WARNING - No expenses found
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:14 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:14 - INFO - Deleted expense at index: 2
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:22:53 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:22:53 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:22:53 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:22:53 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 2
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 1
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - WARNING - Invalid delete index: 0
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - WARNING - Invalid delete index: -1
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - WARNING - Invalid delete index: 99
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - WARNING - No expenses found
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:22:53 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:22:53 - INFO - Deleted expense at index: 2
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:23:28 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:23:28 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:23:28 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:23:28 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 2
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 1
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 1
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 1
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 1
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - WARNING - Invalid delete index: 0
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - WARNING - Invalid delete index: -1
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - WARNING - Invalid delete index: 99
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - WARNING - No expenses found
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:23:28 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:23:28 - INFO - Deleted expense at index: 2
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:25:59 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:25:59 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:25:59 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:25:59 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 2
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 1
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 1
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 1
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 1
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - WARNING - Invalid delete index: 0
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - WARNING - Invalid delete index: -1
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - WARNING - Invalid delete index: 99
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - WARNING - No expenses found
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:25:59 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:25:59 - INFO - Deleted expense at index: 2
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.0, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Movie, Amount: 15.0, Category: Entertainment
+2026-04-07 13:26:57 - INFO - Added expense: Veggies, Amount: 15.0, Category: Grocceries
+2026-04-07 13:26:57 - INFO - Added expense: Chips, Amount: 3.0, Category: Snacks
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Stiching material, Amount: 12.0, Category: Arts n Crafts
+2026-04-07 13:26:57 - INFO - Added expense: Necklace, Amount: 150.0, Category: Jewelery
+2026-04-07 13:26:57 - INFO - Added expense: Books, Amount: 50.0, Category: Liesure
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Tea, Amount: 1.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Deleted expense at index: 2
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Deleted expense at index: 1
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Deleted expense at index: 1
+2026-04-07 13:26:57 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:57 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:57 - INFO - Deleted expense at index: 1
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - INFO - Deleted expense at index: 1
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - WARNING - Invalid delete index: 0
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - WARNING - Invalid delete index: -1
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - WARNING - Invalid delete index: 99
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - WARNING - No expenses found
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:58 - INFO - Added expense: Rent, Amount: 1500.0, Category: Housing
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.33, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Tea, Amount: 1.11, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Coffee, Amount: 3.5, Category: Beverages
+2026-04-07 13:26:58 - INFO - Added expense: Lunch, Amount: 12.5, Category: Food
+2026-04-07 13:26:58 - INFO - Deleted expense at index: 2
+>>>>>>> origin/main

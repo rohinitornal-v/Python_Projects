@@ -12,14 +12,14 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 # ──────────────────────────────────────────
 # Test Environment Configuration
 # ──────────────────────────────────────────
-# Use separate files for testing so dev data is never touched
+# Point to test data files - never production files
+TEST_DATA_FILE = os.path.join(
+    os.path.dirname(__file__), "test_data", "test_expenses.json"
+)
+TEST_LOG_FILE = os.path.join(os.path.dirname(__file__), "test_data", "test_app.log")
 
-os.environ["EXPENSE_DATA_FILE"] = "data/test_expenses.json"
-os.environ["EXPENSE_LOG_FILE"] = "logs/test_app.log"
-
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-
-import pytest
+os.environ["EXPENSE_DATA_FILE"] = TEST_DATA_FILE
+os.environ["EXPENSE_LOG_FILE"] = TEST_LOG_FILE
 
 
 @pytest.fixture

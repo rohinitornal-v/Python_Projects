@@ -3,7 +3,13 @@
 Author: Rohini
 Version: 1.0
 
-----
+## Version History
+Version       Date            Changes
+------------------------------------------------------------------------------------------------
+  1.0         April-2026     Initial release — Add, View, Filter, Delete, Total
+
+------------------------------------------------------------------------------------------------
+
 # Feature 1 : Add Expenses
 As a user
 I want to add a new expense
@@ -19,7 +25,7 @@ Version: 1.0
 The following Gherkin scenarios capture the behaviour of the Expense Tracker CLI.
 
 ```gherkin
-Feature: Add expenses
+Feature 1: Add expenses
     In order to track spending
     As a user
     I want to add expenses with a title, amount and category
@@ -41,15 +47,15 @@ Feature: Add expenses
 
         Examples:
             | title | amount | category  | error                             |
-            | ""   | 10     | Food      | Title cannot be empty             |
+            | ""    | 10     | Food      | Title cannot be empty             |
             | Tea   | 0      | Beverages | Amount must be greater than 0     |
             | Bus   | -5     | Transport | Amount must be greater than 0     |
             | Cake  | abc    | Food      | Amount must be numeric            |
-            | Cake  | 5      | ""       | Category cannot be empty          |
+            | Cake  | 5      | ""        | Category cannot be empty          |
 ```
 
 ```gherkin
-Feature: View expenses
+Feature 2: View expenses
     In order to review spending
     As a user
     I want to view all stored expenses
@@ -73,7 +79,7 @@ Feature: View expenses
 ```
 
 ```gherkin
-Feature: Filter expenses by category
+Feature 3: Filter expenses by category
     In order to analyse category spending
     As a user
     I want to filter expenses by category
@@ -96,7 +102,7 @@ Feature: Filter expenses by category
 ```
 
 ```gherkin
-Feature: Delete expenses
+Feature 4: Delete expenses
     In order to remove mistakes
     As a user
     I want to delete an expense by index
@@ -122,7 +128,7 @@ Feature: Delete expenses
 ```
 
 ```gherkin
-Feature: Show total spending
+Feature 5: Show total spending
     In order to understand total outflow
     As a user
     I want to see the total amount spent
@@ -145,7 +151,7 @@ Feature: Show total spending
 ```
 
 ```gherkin
-Feature: Data persistence and resilience
+Feature 6: Data persistence and resilience
     In order to keep user data safe
     As the application
     I must persist data and handle corrupted storage
@@ -168,7 +174,8 @@ Feature: Data persistence and resilience
 
 # Non-functional requirements
 
-- **Logging**: success operations log at INFO; invalid attempts log at WARNING. Logs written to logs/app.log.
+- **Logging**: 
+  success operations log at INFO; invalid attempts log at WARNING. Logs written to logs/app.log.
 - **Storage**: expenses are stored in data/expenses.json and must survive restarts.
 - **Error handling**: invalid inputs and corrupted JSON must be handled gracefully; CLI must not crash.
 - **Testability**: business logic separated from CLI to allow unit tests.

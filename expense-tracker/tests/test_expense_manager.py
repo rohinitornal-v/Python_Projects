@@ -344,3 +344,43 @@ class TestPerformance:
 
     def setup_method(self):
         """Add 1000 expenses before each performance test."""
+        save_expenses([])
+        expenses = []
+        for i in range(1000):
+            expenses.append(
+                {
+                    "title": f"Expense {i+1}",
+                    "amount": float(i + 1),
+                    "category": "Food" if i % 2 == 0 else "Transport",
+                }
+            )
+            save_expenses(expenses)
+
+    def test_get_all_expenses_under_2_seconds(self):
+        """get all expenses should handle 1000 expenses in under 2 seconds."""
+        start = time.time()
+        result = get_all_expenses()
+        elapsed = time.time() - start
+        assert len(result) == 1000
+        assert elapsed < 2.0, f"Took {elapsed:.2f}s - exceeds 2s threshold"
+
+    def test_filter_by_category_under_2_seconds(self):
+        """filter by category should handle 1000 expenses in under 2 seconds."""
+        start = time.time()
+        result = filter_by_category("Food")
+        elapsed = time.time() - start
+        assert elapsed < 2.0, f"Took {elapsed:.2f}s - exceeds 2s threshold"
+
+    def test_get_total_under_2_secoinds(self):
+        """get total should handle 1000 expenses in under 2 seconds."""
+        start = time.time()
+        result = get_total()
+        elapsed = time.time() - start
+        assert elapsed < 2.0, f"Took {elapsed:.2f}s - exceeds 2s threshold"
+
+    def test_delete_expense_under_2_seconds(self):
+        """delete expense should handle 1000 expenses in under 2 seconds."""
+        start = time.time()
+        delete_expense(1)
+        elapsed = time.time() - start
+        assert elapsed < 2.0, f"Took {elapsed:.2f}s - exceeds 2s threshold"

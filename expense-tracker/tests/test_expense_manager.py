@@ -332,7 +332,6 @@ class TestGetTotal:
         delete_expense(2)  # deletes Lunch (highest)
         result = get_total()
         assert result == 3.50
-<<<<<<< HEAD
 
 
 # -------------------------
@@ -345,5 +344,3 @@ class TestPerformance:
 
     def setup_method(self):
         """Add 1000 expenses before each performance test."""
-=======
->>>>>>> origin/main

@@ -156,6 +156,10 @@ pytest tests/ -v
 # Run with coverage report
 pytest tests/ --cov=app --cov-report=term-missing
 
+# View the coverage report in html
+
+open htmlcov/index.html 
+
 # Run specific test file
 pytest tests/test_validator.py -v
 pytest tests/test_expense_manager.py -v

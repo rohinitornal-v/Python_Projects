@@ -78,7 +78,7 @@ DELETE_TEST_EXPENSES = [
 # Known total: 2016.00
 # ──────────────────────────────────────────
 
-TOTAL_TEST_DATASET = [
+TOTAL_TEST_EXPENSES = [
     {"title": "Coffee", "amount": 3.50, "category": "Beverages"},
     {"title": "Lunch", "amount": 12.50, "category": "Food"},
     {"title": "Rent", "amount": 2000.00, "category": "Housing"},

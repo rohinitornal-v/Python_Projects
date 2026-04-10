@@ -20,22 +20,13 @@ from app.expense_manager import (
     load_expenses,
 )
 
-# --------------------
-# Fixtures
-# --------------------
-
-
-@pytest.fixture(autouse=True)
-def clean_expenses():
-    """
-    Runs before AND after every test automatically.
-    autouse=True means no need to call it explicitly.
-    Ensures every test starts with empty expense store.
-    """
-    save_expenses([])  # clean before test
-    yield  # test runs here
-    save_expenses([])  # clean after test
-
+from tests.test_data.datasets import (
+    SINGLE_EXPENSE,
+    STANDARDS_EXPENSES,
+    TOTAL_TEST_DATASET,
+    TOTAL_TEST_EXPECTED,
+    BEVERAGES_ONLY,
+)
 
 # -------------------------
 # Tests -add expense
@@ -63,7 +54,7 @@ class TestExpense:
         """Multiple expenses should all be saved."""
         add_expense("Coffee", 3.50, "Beverages")
         add_expense("Lunch", 12.50, "Food")
-        add_expense("Rent", 1500.00, "Housing")
+        add_expense("Rent", 2000.00, "Housing")
         expenses = load_expenses()
         assert len(expenses) == 3
 
@@ -71,6 +62,9 @@ class TestExpense:
         """add_expense should return a dictionary."""
         result = add_expense("Coffee", 3.50, "Beverages")
         assert isinstance(result, dict)
+        assert "title" in result
+        assert "amount" in result
+        assert "category" in result
 
     def test_add_expense_amount_stored_as_float(self):
         "Amount should be stored as float."
@@ -78,7 +72,7 @@ class TestExpense:
         assert isinstance(result["amount"], float)
 
     def test_add_empty_title_raises_error(self):
-        "Empty tile should raise ValidationError"
+        "Empty title should raise ValidationError"
         with pytest.raises(ValidationError):
             add_expense("", 10.00, "Misc")
 

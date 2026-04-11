@@ -19,7 +19,7 @@ SINGLE_EXPENSE = [{"title": "Coffee", "amount": 3.50, "category": "Beverages"}]
 # Contains mix of categories and amounts
 # ──────────────────────────────────────────
 
-STANDARDS_EXPENSES = [
+STANDARD_EXPENSES = [
     {"title": "Rent", "amount": 2000.00, "category": "Housing"},
     {"title": "Lunch", "amount": 12.50, "category": "Food"},
     {"title": "Coffee", "amount": 3.50, "category": "Beverages"},

@@ -22,8 +22,8 @@ from app.expense_manager import (
 
 from tests.test_data.datasets import (
     SINGLE_EXPENSE,
-    STANDARDS_EXPENSES,
-    TOTAL_TEST_DATASET,
+    STANDARD_EXPENSES,
+    TOTAL_TEST_EXPENSES,
     TOTAL_TEST_EXPECTED,
     BEVERAGES_ONLY,
 )

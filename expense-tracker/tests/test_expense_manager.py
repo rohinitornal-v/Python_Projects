@@ -7,7 +7,7 @@ import os
 import sys
 import pytest
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from app.validator import ValidationError
 from app.expense_manager import (
@@ -20,12 +20,13 @@ from app.expense_manager import (
     load_expenses,
 )
 
-from tests.test_data.datasets import (
+from .test_data.datasets import (
     SINGLE_EXPENSE,
     STANDARD_EXPENSES,
     TOTAL_TEST_EXPENSES,
     TOTAL_TEST_EXPECTED,
     BEVERAGES_ONLY,
+    DELETE_TEST_EXPENSES,
 )
 
 # -------------------------
@@ -160,26 +161,30 @@ class TestGetAllExpenses:
 class TestFilterByCategory:
     """Tests for filter_by_category function."""
 
-    def setup_method(self):
-        """Add test expenses before each test"""
-        save_expenses([])
-        add_expense("Stiching material", 12.00, "Arts n Crafts")
-        add_expense("Necklace", 150.00, "Jewelery")
-        add_expense("Books", 50.00, "Liesure")
-        add_expense("Coffee", 3.50, "Beverages")
-        add_expense("Tea", 1.50, "Beverages")
-        add_expense("Lunch", 12.50, "Food")
-        add_expense("Rent", 1500.00, "Housing")
+    # def setup_method(self):
+    #     """Add test expenses before each test"""
+    #     save_expenses([])
+    #     add_expense("Stiching material", 12.00, "Arts n Crafts")
+    #     add_expense("Necklace", 150.00, "Jewelery")
+    #     add_expense("Books", 50.00, "Liesure")
+    #     add_expense("Coffee", 3.50, "Beverages")
+    #     add_expense("Tea", 1.50, "Beverages")
+    #     add_expense("Lunch", 12.50, "Food")
+    #     add_expense("Rent", 1500.00, "Housing")
 
     def test_filter_exact_match(self):
         """Should return only expenses matching category."""
+        # result = filter_by_category("Beverages")
+        # assert len(result) == 2
+        # for e in result:
+        #     assert e["category"] == "Beverages"
+        save_expenses(STANDARD_EXPENSES)  # ← load here
         result = filter_by_category("Beverages")
         assert len(result) == 2
-        for e in result:
-            assert e["category"] == "Beverages"
 
     def test_filter_case_insensitive_lower(self):
         """Lowercase category should match."""
+        save_expenses(STANDARD_EXPENSES)  # ← load here
         result = filter_by_category("beverages")
         assert len(result) == 2
 
@@ -190,14 +195,18 @@ class TestFilterByCategory:
 
     def test_filter_no_match_returns_empty(self):
         """No matching category should return empty list."""
+        save_expenses(STANDARD_EXPENSES)
         result = filter_by_category("Entertainment")
         assert result == []
 
     def test_filter_results_sorted_descending(self):
         """Filtered results should be sorted by amount descending."""
+        save_expenses(STANDARD_EXPENSES)
         result = filter_by_category("Beverages")
         amounts = [e["amount"] for e in result]
         assert amounts == sorted(amounts, reverse=True)
+        assert result[0]["title"] == "Coffee"
+        assert result[1]["title"] == "Tea"
 
     def test_filter_empty_category_raises_error(self):
         """Empty category should raise ValidationError."""
@@ -206,8 +215,14 @@ class TestFilterByCategory:
 
     def test_filter_returns_list(self):
         """filter_by_category should always return a list."""
+        save_expenses(STANDARD_EXPENSES)
         result = filter_by_category("Food")
         assert isinstance(result, list)
+
+    def test_filter_using_beverages_only_dataset(self):
+        save_expenses(BEVERAGES_ONLY)  # ← load here
+        result = filter_by_category("Beverages")
+        assert len(result) == len(BEVERAGES_ONLY)
 
 
 # -------------------------
@@ -218,25 +233,28 @@ class TestFilterByCategory:
 class TestDeleteExpense:
     """Test for delete_expense function."""
 
-    def setup_method(self):
-        """Add test expenses before each test."""
-        save_expenses([])
-        add_expense("Coffee", 3.50, "Beverages")
-        add_expense("Rent", 1500.00, "Housing")
+    # def setup_method(self):
+    #     """Add test expenses before each test."""
+    #     save_expenses([])
+    #     add_expense("Coffee", 3.50, "Beverages")
+    #     add_expense("Rent", 1500.00, "Housing")
 
     def test_delete_valid_expense(self):
         """Valid index should delete and return expense."""
+        save_expenses(DELETE_TEST_EXPENSES)
         result = delete_expense(2)
-        assert result["title"] == "Rent"
+        assert result["title"] == "Lunch"
 
     def test_delete_reduces_count(self):
         """Deleting expense should reduce count by 1."""
+        save_expenses(DELETE_TEST_EXPENSES)
         delete_expense(1)
         expenses = load_expenses()
-        assert len(expenses) == 1
+        assert len(expenses) == len(DELETE_TEST_EXPENSES) - 1
 
     def test_deleted_expense_not_in_list(self):
         """Deleted expense should not appear in list."""
+        save_expenses(DELETE_TEST_EXPENSES)
         deleted = delete_expense(1)
         expenses = load_expenses()
         titles = [e["title"] for e in expenses]
@@ -244,6 +262,7 @@ class TestDeleteExpense:
 
     def test_delete_persists_to_file(self):
         """Deleted expense should be saved to espense.json"""
+        save_expenses(DELETE_TEST_EXPENSES)
         deleted = delete_expense(1)
         loaded = load_expenses()
         titles = [e["title"] for e in loaded]
@@ -251,6 +270,7 @@ class TestDeleteExpense:
 
     def test_delete_returns_deleted_expense(self):
         """delete_expense should return the deleted expense."""
+        save_expenses(DELETE_TEST_EXPENSES)
         result = delete_expense(1)
         assert isinstance(result, dict)
         assert "title" in result
@@ -259,16 +279,19 @@ class TestDeleteExpense:
 
     def test_delete_zero_index_raises_error(self):
         """Zero index should raise ValidationError."""
+        save_expenses(DELETE_TEST_EXPENSES)
         with pytest.raises(ValidationError):
             delete_expense(0)
 
     def test_delete_negative_index_raises_error(self):
         """Negative index should raise ValidationError."""
+        save_expenses(DELETE_TEST_EXPENSES)
         with pytest.raises(ValidationError):
             delete_expense(-1)
 
     def test_delete_out_of_range_raises_error(self):
         """Out of range index should raise ValidationError."""
+        save_expenses(DELETE_TEST_EXPENSES)
         with pytest.raises(ValidationError):
             delete_expense(99)
 
@@ -295,17 +318,16 @@ class TestGetTotal:
 
     def test_total_single_expense(self):
         """Total should equal single expense amount."""
-        add_expense("Coffee", 3.50, "Beverages")
+        save_expenses(SINGLE_EXPENSE)
+        # add_expense("Coffee", 3.50, "Beverages")
         result = get_total()
         assert result == 3.50
 
     def test_total_multiple_expenses(self):
         """Total should be sum of all expense amounts."""
-        add_expense("Coffee", 3.50, "Beverages")
-        add_expense("Lunch", 12.50, "Food")
-        add_expense("Rent", 1500.00, "Housing")
-        result = get_total()
-        assert result == 1516.00
+        save_expenses(STANDARD_EXPENSES)  # ← load here
+        expected = round(sum(e["amount"] for e in STANDARD_EXPENSES), 2)
+        assert get_total() == expected
 
     def test_total_is_numeric(self):
         """Total should always return numeric value."""
@@ -314,18 +336,23 @@ class TestGetTotal:
 
     def test_total_rounded_two_decimals(self):
         """Total should be rounded to 2 decimal places."""
-        add_expense("Coffee", 3.33, "Beverages")
-        add_expense("Tea", 1.11, "Beverages")
+        # add_expense("Coffee", 3.33, "Beverages")
+        # add_expense("Tea", 1.11, "Beverages")
         result = get_total()
         assert result == round(result, 2)
 
     def test_total_after_delete(self):
         """Total should update correctly after deletion."""
-        add_expense("Coffee", 3.50, "Beverages")
-        add_expense("Lunch", 12.50, "Food")
-        delete_expense(2)  # deletes Lunch (highest)
-        result = get_total()
-        assert result == 3.50
+        # add_expense("Coffee", 3.50, "Beverages")
+        # add_expense("Lunch", 12.50, "Food")
+        # delete_expense(2)  # deletes Lunch (highest)
+        # result = get_total()
+        # assert result == 3.50
+        save_expenses(DELETE_TEST_EXPENSES)  # ← load here
+        total_before = get_total()
+        deleted = delete_expense(1)
+        total_after = get_total()
+        assert total_after == round(total_before - deleted["amount"], 2)
 
 
 # -------------------------

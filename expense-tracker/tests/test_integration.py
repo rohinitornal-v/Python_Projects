@@ -122,7 +122,7 @@ class TestAndView:
 
     def test_mixed_categories_all_visible(self):
         """All mixed category expenses should appear in view"""
-        save_expenses(STANDARD_EXPENSES)
+        save_expenses(MIXED_CATEGORIES)
         result = get_all_expenses()
         assert len(result) == len(MIXED_CATEGORIES)
 
@@ -191,12 +191,14 @@ class TestAddAndDelete:
         """DELETE_TEST_EXPENSES sorted: Rent(1), Lunch(2), Coffee(3).
         Index 1 should remove Rent."""
         save_expenses(DELETE_TEST_EXPENSES)
-        delete_expense(1)
-        expenses = get_all_expenses()
-        title = [e["title"] for e in expenses]
-        assert "Rent" not in title
-        assert "Coffee" in title
-        assert "Lunch" in title
+        deleted = delete_expense(1)
+
+        titles = [e["title"] for e in get_all_expenses()]
+
+        assert deleted["title"] == "Rent"
+        assert "Rent" not in titles
+        assert "Coffee" in titles
+        assert "Lunch" in titles
 
     def test_delete_reduces_count_by_one(self):
         """Count should decrease by 1 after delete."""

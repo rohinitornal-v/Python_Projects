@@ -5,6 +5,7 @@ This is the heart of the application.
 
 import json
 import os
+from unicodedata import category
 
 from app.logger import logger, setup_logger
 
@@ -79,13 +80,16 @@ def get_all_expenses():
 
 def filter_by_category(category):
     """Filter expenses by category (case-insensitive) sorted by amount descending."""
-    validate_category(category)
+    normalized_category = validate_category(category).strip().lower()
+
     expenses = load_expenses()
-    filtered = [
-        expense
-        for expense in expenses
-        if expense["category"].lower() == category.lower()
-    ]
+    filtered = []
+
+    for expense in expenses:
+        expense_category = str(expense.get("category", "")).strip().lower()
+        if expense_category == normalized_category:
+            filtered.append(expense)
+
     return sorted(filtered, key=lambda x: x["amount"], reverse=True)
 
 
@@ -98,7 +102,6 @@ def delete_expense(index):
     from app.logger import log_info, log_warning, ensure_log_file
 
     ensure_log_file()
-
     expenses = load_expenses()
 
     if not expenses:
@@ -113,7 +116,6 @@ def delete_expense(index):
     deleted = expenses.pop(index - 1)
 
     save_expenses(expenses)
-
     log_info(f"Deleted expense at index: {index}")
 
     return deleted

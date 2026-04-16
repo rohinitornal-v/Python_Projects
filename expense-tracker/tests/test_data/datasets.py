@@ -50,6 +50,7 @@ MIXED_CATEGORIES = [
     {"title": "Coffee", "amount": 3.50, "category": "Beverages"},
     {"title": "Tea", "amount": 1.50, "category": "Beverages"},
     {"title": "Pizza", "amount": 15.00, "category": "Food"},
+    {"title": "Burger", "amount": 12.00, "category": "Food"},
     {"title": "Bus", "amount": 2.50, "category": "Transport"},
     {"title": "Rent", "amount": 2000.00, "category": "Housing"},
 ]

@@ -190,6 +190,7 @@ class TestFilterByCategory:
 
     def test_filter_case_insensitive_upper(self):
         """Uppercase category should match."""
+        save_expenses(STANDARD_EXPENSES)
         result = filter_by_category("BEVERAGES")
         assert len(result) == 2
 
@@ -242,8 +243,8 @@ class TestDeleteExpense:
     def test_delete_valid_expense(self):
         """Valid index should delete and return expense."""
         save_expenses(DELETE_TEST_EXPENSES)
-        result = delete_expense(2)
-        assert result["title"] == "Lunch"
+        result = delete_expense(1)
+        assert result["title"] == "Rent"
 
     def test_delete_reduces_count(self):
         """Deleting expense should reduce count by 1."""

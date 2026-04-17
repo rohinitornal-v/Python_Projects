@@ -20,10 +20,10 @@ Feature: Delete Expenses
   # Happy Path
 
   Scenario: Successfully delete a valid expense
-    When I delete the expense at index 3
-    Then the expense "Bus Ticket" should be removed from the list
+    When I delete the expense at index 2
+    Then the expense "Gym Membership" should be removed from the list
     And the change should be saved to "data/expenses.json"
-    And an INFO log entry "Deleted expense at index: 3" should be written to "logs/app.log"
+    And an INFO log entry "Deleted expense at index: 2" should be written to "logs/app.log"
 
   # Input Validation
 

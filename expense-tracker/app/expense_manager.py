@@ -5,7 +5,8 @@ This is the heart of the application.
 
 import json
 import os
-from unicodedata import category
+
+# from unicodedata import category
 
 from app.logger import logger, setup_logger
 
@@ -80,16 +81,15 @@ def get_all_expenses():
 
 def filter_by_category(category):
     """Filter expenses by category (case-insensitive) sorted by amount descending."""
-    normalized_category = validate_category(category).strip().lower()
+    validate_category(category)
+    normalized_category = category.strip().lower()
 
     expenses = load_expenses()
     filtered = []
 
-    for expense in expenses:
-        expense_category = str(expense.get("category", "")).strip().lower()
-        if expense_category == normalized_category:
-            filtered.append(expense)
-
+    filtered = [
+        e for e in expenses if e.get("category", "").lower() == normalized_category
+    ]
     return sorted(filtered, key=lambda x: x["amount"], reverse=True)
 
 
@@ -102,18 +102,21 @@ def delete_expense(index):
     from app.logger import log_info, log_warning, ensure_log_file
 
     ensure_log_file()
-    expenses = load_expenses()
 
-    if not expenses:
+    expenses = load_expenses()
+    sorted_expenses = sorted(expenses, key=lambda x: x["amount"], reverse=True)
+
+    if not sorted_expenses:
         log_warning("No expenses found")
         raise ValidationError("No expenses found")
 
-    if index <= 0 or index > len(expenses):
+    if index <= 0 or index > len(sorted_expenses):
         log_warning(f"Invalid delete index: {index}")
         raise ValidationError("Invalid Index")
 
     # Delete using original order
-    deleted = expenses.pop(index - 1)
+    deleted = sorted_expenses[index - 1]
+    expenses.remove(deleted)
 
     save_expenses(expenses)
     log_info(f"Deleted expense at index: {index}")
